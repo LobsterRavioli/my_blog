@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/archie/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=archie/livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>My First Post - ABC Widgets, Inc.</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>My First Post - Archie</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is my first post using Hugo, a powerful static site generator. In this post, I&rsquo;ll share my experience setting up my blog and a few tips for getting started with Hugo.
+Getting Started with Hugo Hugo is a fast and flexible static site generator written in Go. It&rsquo;s designed for speed and ease of use, making it a popular choice for creating blogs and websites. Here&rsquo;s how I set up my blog:" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://localhost:1313/posts/my-first-post/">
-  <meta property="og:site_name" content="ABC Widgets, Inc.">
+	<meta property="og:url" content="http://localhost:1313/archie/posts/my-first-post/">
+  <meta property="og:site_name" content="Archie">
   <meta property="og:title" content="My First Post">
+  <meta property="og:description" content="This is my first post using Hugo, a powerful static site generator. In this post, I’ll share my experience setting up my blog and a few tips for getting started with Hugo.
+Getting Started with Hugo Hugo is a fast and flexible static site generator written in Go. It’s designed for speed and ease of use, making it a popular choice for creating blogs and websites. Here’s how I set up my blog:">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -15,18 +18,58 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="My First Post">
-
+  <meta name="twitter:description" content="This is my first post using Hugo, a powerful static site generator. In this post, I’ll share my experience setting up my blog and a few tips for getting started with Hugo.
+Getting Started with Hugo Hugo is a fast and flexible static site generator written in Go. It’s designed for speed and ease of use, making it a popular choice for creating blogs and websites. Here’s how I set up my blog:">
+<script src="http://localhost:1313/archie/js/feather.min.js"></script>
 	
-        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
-
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-
-	
+        <link href="http://localhost:1313/archie/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/archie/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/archie/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+		<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+	
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script>
+	
+
+	
+	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+			</script>
 	
 	
 	
@@ -34,9 +77,17 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://localhost:1313/">ABC Widgets, Inc.</a>
+		<a href="http://localhost:1313/archie/">Archie</a>
 	</div>
 	<nav>
+		
+		<a href="/archie/">Home</a>
+		
+		<a href="/archie/posts">All posts</a>
+		
+		<a href="/archie/about">About</a>
+		
+		<a href="/archie/tags">Tags</a>
 		
 		
 	</nav>
@@ -51,7 +102,30 @@
 		
 
 		<section class="body">
-			
+			<p>This is my first post using Hugo, a powerful static site generator. In this post, I&rsquo;ll share my experience setting up my blog and a few tips for getting started with Hugo.</p>
+<h2 id="getting-started-with-hugo">Getting Started with Hugo</h2>
+<p>Hugo is a fast and flexible static site generator written in Go. It&rsquo;s designed for speed and ease of use, making it a popular choice for creating blogs and websites. Here&rsquo;s how I set up my blog:</p>
+<h3 id="step-1-install-hugo">Step 1: Install Hugo</h3>
+<p>First, I installed Hugo on my computer. You can download Hugo from the <a href="https://gohugo.io/getting-started/installing/">official website</a>. Follow the instructions for your operating system.</p>
+<h3 id="step-2-create-a-new-site">Step 2: Create a New Site</h3>
+<p>Next, I created a new Hugo site using the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site my-blog
+</span></span></code></pre></div><p>This command generates the directory structure and configuration files needed for a Hugo site.</p>
+<h3 id="step-3-choose-a-theme">Step 3: Choose a Theme</h3>
+<p>Hugo offers a variety of themes to choose from. I selected a theme that suits my style and downloaded it from the <a href="https://themes.gohugo.io/">Hugo Themes</a> website. I then added the theme to my site by cloning its repository into the <code>themes</code> directory and updating the <code>config.toml</code> file to use the new theme.</p>
+<h3 id="step-4-create-a-new-post">Step 4: Create a New Post</h3>
+<p>With the site set up, I created my first blog post using the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/my-first-post.md
+</span></span></code></pre></div><p>This command created a new Markdown file with front matter for the post. I then edited the file to include my content.</p>
+<h3 id="step-5-build-and-serve-the-site">Step 5: Build and Serve the Site</h3>
+<p>Finally, I built the site and served it locally to preview my changes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>This command starts a local server at <code>http://localhost:1313</code>, where I could see my blog in action.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Setting up a blog with Hugo is straightforward and enjoyable. I&rsquo;m excited to start sharing my thoughts and experiences here. Stay tuned for more posts!</p>
+<hr>
+<p>Feel free to customize this content further based on your personal experience and specific details about your setup process.</p>
+
 		</section>
 
 		<div class="post-tags">
@@ -59,15 +133,38 @@
 			
 			
 		</div>
-		</article>
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        var disqus_shortname = 'yourDisqusShortname';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></article>
 </main>
 <footer>
-  <div style="display:flex"></div>
+  <div style="display:flex"><a class="soc" href="https://github.com/athul/archie" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://twitter.com/athulcajay/" rel="me" title="Twitter"><i data-feather="twitter"></i></a>
+    <a class="border"></a><a class="soc" href="https://gitlab.com/athul/" rel="me" title="GitLab"><i data-feather="gitlab"></i></a>
+    <a class="border"></a></div>
   <div class="footer-info">
-    2024  <a
+    2024  © Athul |  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-</div>
+<script>
+  feather.replace()
+</script></div>
     </body>
 </html>

@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ABC Widgets, Inc.</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on ABC Widgets, Inc.</description>
+    <title>Archie</title>
+    <link>http://localhost:1313/archie/</link>
+    <description>Recent content on Archie</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <copyright>© Athul</copyright>
     <lastBuildDate>Thu, 23 May 2024 11:48:10 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archie/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lollo_chick</title>
-      <link>http://localhost:1313/posts/lollo_chick/</link>
+      <title>Start my cloud career</title>
+      <link>http://localhost:1313/archie/posts/cloud_computing_career/</link>
       <pubDate>Thu, 23 May 2024 11:48:10 +0200</pubDate>
-      <guid>http://localhost:1313/posts/lollo_chick/</guid>
-      <description>aaaaa</description>
+      <guid>http://localhost:1313/archie/posts/cloud_computing_career/</guid>
+      <description>In today&amp;rsquo;s rapidly evolving tech landscape, cloud computing has emerged as a cornerstone of modern IT infrastructure. Whether you&amp;rsquo;re a seasoned IT professional looking to expand your skill set or a newcomer to the tech world, embarking on a cloud career can open up a world of opportunities.&#xA;Why Cloud Computing? Cloud computing offers several advantages:&#xA;Scalability: Easily scale resources up or down based on demand. Cost Efficiency: Pay only for the resources you use.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/archie/posts/my-first-post/</link>
       <pubDate>Thu, 23 May 2024 10:49:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
+      <guid>http://localhost:1313/archie/posts/my-first-post/</guid>
+      <description>This is my first post using Hugo, a powerful static site generator. In this post, I&amp;rsquo;ll share my experience setting up my blog and a few tips for getting started with Hugo.&#xA;Getting Started with Hugo Hugo is a fast and flexible static site generator written in Go. It&amp;rsquo;s designed for speed and ease of use, making it a popular choice for creating blogs and websites. Here&amp;rsquo;s how I set up my blog:</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/archie/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archie/about/</guid>
+      <description>👋 Hi! I&amp;rsquo;m Tommaso Sorrentino, a recent graduate with a degree in Computer Science from University of Salerno. 🎓 I am enthusiastic about diving into the world of cloud computing and leveraging technology to solve real-world problems.&#xA;💻 Throughout my academic journey, I have developed strong skills in programming languages such as JavaScript, Python, and Java. I have a keen interest in cloud technologies and have been actively learning about platforms like AWS, Azure, and Google Cloud.</description>
     </item>
   </channel>
 </rss>
