@@ -1,8 +1,7 @@
 baseURL = "https://github.com/LobsterRavioli"
 languageCode = "en-us"
-title = "Archie"
+title = "Tommaso Sorrentino"
 theme="archie"
-copyright = "© Athul"
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
