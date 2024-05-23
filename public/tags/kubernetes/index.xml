@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kubernetes on Archie</title>
-    <link>http://localhost:1313/archie/tags/kubernetes/</link>
-    <description>Recent content in Kubernetes on Archie</description>
+    <title>Kubernetes on Tommaso Sorrentino</title>
+    <link>http://localhost:1313/LobsterRavioli/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on Tommaso Sorrentino</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Athul</copyright>
     <lastBuildDate>Thu, 23 May 2024 11:48:10 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/archie/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/LobsterRavioli/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lollo_chick</title>
-      <link>http://localhost:1313/archie/posts/lollo_chick/</link>
+      <title>Start my cloud career</title>
+      <link>http://localhost:1313/LobsterRavioli/posts/cloud_computing_career/</link>
       <pubDate>Thu, 23 May 2024 11:48:10 +0200</pubDate>
-      <guid>http://localhost:1313/archie/posts/lollo_chick/</guid>
-      <description>aaaaa</description>
+      <guid>http://localhost:1313/LobsterRavioli/posts/cloud_computing_career/</guid>
+      <description>In today&amp;rsquo;s rapidly evolving tech landscape, cloud computing has emerged as a cornerstone of modern IT infrastructure. Whether you&amp;rsquo;re a seasoned IT professional looking to expand your skill set or a newcomer to the tech world, embarking on a cloud career can open up a world of opportunities.&#xA;Why Cloud Computing? Cloud computing offers several advantages:&#xA;Scalability: Easily scale resources up or down based on demand. Cost Efficiency: Pay only for the resources you use.</description>
     </item>
   </channel>
 </rss>
