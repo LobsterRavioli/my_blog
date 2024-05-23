@@ -53,5 +53,3 @@ This command starts a local server at `http://localhost:1313`, where I could see
 Setting up a blog with Hugo is straightforward and enjoyable. I'm excited to start sharing my thoughts and experiences here. Stay tuned for more posts!
 
 ---
-
-Feel free to customize this content further based on your personal experience and specific details about your setup process.
