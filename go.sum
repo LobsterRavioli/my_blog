@@ -1,2 +1,8 @@
+github.com/adityatelange/hugo-PaperMod v0.0.0-20240511144135-3f50861a0ced h1:DAnseWFMs5t9jDCzUIm77l/qh1JyJolLN620X+LnR2o=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20240511144135-3f50861a0ced/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/nanxiaobei/hugo-paper v0.0.0-20240513183536-90059f787877 h1:92A4/cwJmNVxk8B8au1rtJ3AdsGbUwsVGwtaCVU0IJM=
+github.com/nanxiaobei/hugo-paper v0.0.0-20240513183536-90059f787877/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
+github.com/nodejh/hugo-theme-mini v0.0.0-20240322021354-34417888405c h1:WUFnrYHzZk6QLla2BgFvySeYORf5nf0SUzcdIANHadU=
+github.com/nodejh/hugo-theme-mini v0.0.0-20240322021354-34417888405c/go.mod h1:+Rl6qKesH3DeBOjXcmPXB1L/LwD3RqXzopTzon/jv5Q=
 github.com/nunocoracao/blowfish/v2 v2.67.0 h1:M5rKsFaFD3+BV28u7mOKEK93TXazs3BB5QW2xid3u+8=
 github.com/nunocoracao/blowfish/v2 v2.67.0/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
