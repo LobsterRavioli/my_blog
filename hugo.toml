@@ -1,4 +1,4 @@
-baseURL = "https://athul.github.io/archie/"
+baseURL = "https://github.com/LobsterRavioli"
 languageCode = "en-us"
 title = "Archie"
 theme="archie"
@@ -24,17 +24,7 @@ paginate=3 # articles per page
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
+url = "https://github.com/LobsterRavioli"
 
 # Main menu Items
 
